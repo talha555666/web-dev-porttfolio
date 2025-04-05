@@ -50,19 +50,28 @@ nav li a{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+/* /// main div style  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* ///section style ..  */
 .about{
 border-radius: 10px;
-margin: 130px 230px;
 padding: 130px 150px;
 text-align: center;
 
 }
-/* // main style,,, */
-main{
 
+/* //// text- item//? */
+.text-item{
+    text-align: center;
 }
-
 
 /* ///background color style .. */
 .bg{
@@ -104,4 +113,26 @@ font-size: 20px;
 .about-items{
     display: flex;
     justify-content: space-around;
+
+}
+/* ///what section start work..  */
+
+.what{
+    font-weight:bold;
+    font-size: 35px;
+    
+    
+}
+.para{
+    font-weight: normal;
+    font-size: 18px;
+}
+.what-main-div{
+    display: flex;
+    gap: 24px;
+
+}
+.style{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px black;
 }
