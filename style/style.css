@@ -50,6 +50,24 @@ nav li a{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+/* ///section style ..  */
+.about{
+border-radius: 10px;
+margin: 130px 230px;
+padding: 130px 150px;
+text-align: center;
+
+}
+/* // main style,,, */
+main{
+
+}
+
+
+/* ///background color style .. */
+.bg{
+    background-color:#FFF8F3;
+}
 
 /* /// banner style . /// */
 .banner{
@@ -65,4 +83,25 @@ nav li a{
 .banner-head-big{
 font-weight: bold;
 font-size: 85px;
+}
+
+/* /// about page style .. */
+
+.section-head{
+    font-weight: bold;
+    font-size: 35px;
+}
+.darck-3{
+    color:#757575 ;
+    font-size: 18px;
+}
+.item-title{
+font-size: 20px;
+}
+.item-des{
+font-size: 20px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
