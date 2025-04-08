@@ -188,9 +188,7 @@ input[type="submit"]{
 footer a img{
     margin-right: 20px;
 }
-.height{
-    display: none;
-}
+
 @media screen and (max-width:576px){
     .what-main-div,.about-items,.summary-main-div{
         width: calc(100% - 40px);
